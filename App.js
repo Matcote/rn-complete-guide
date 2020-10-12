@@ -16,6 +16,9 @@ export default function App() {
   const addGoalHandler = (enteredGoal) => {
     setGoals([...goals, enteredGoal]);
   };
+  // const deleteGoalHandler = (goalId) ={
+  //   setGoals()
+  // }
 
   return (
     <View style={{ padding: 50 }}>
